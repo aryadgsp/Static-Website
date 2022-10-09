@@ -151,7 +151,7 @@ label.img-5{
     animation: cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.img-2{
-    background-image: url("images/AIRPODS/AIRPODS_GEN3/2.jpg");
+    background-image: url("images/AIRPODS/AIRPODSPROMAX/2.png");
 }
 .for-img2:checked ~ .img-wrap.img-2{
     opacity: 1;
