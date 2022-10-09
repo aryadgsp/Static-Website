@@ -731,7 +731,7 @@ a {
 }
 
 /* section 2 */
-.section-2 {
+.section2 {
     width: 100%;
     height: 100vh;
     position: relative;
@@ -741,7 +741,7 @@ a {
     font-size: 52px;
 }
 
-.section-2-image {
+.section2image {
     position: relative;
     scale: 0.7;
     justify-content: center;

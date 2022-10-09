@@ -53,3 +53,22 @@ cancelBtn.addEventListener("click", () => {
 
 
 
+ScrollReveal({
+    //reset: true,
+    distance: '60px',
+    duration: 2500,
+    delay: 400
+  });
+
+  //target elements, and specify options to create reveal animations
+  ScrollReveal().reveal('.section-1-logo img', { delay: 200, origin: 'top' });
+  ScrollReveal().reveal('.section-2-background', { delay: 200, origin: 'right' });
+  ScrollReveal().reveal('.section-2-title h1', { delay: 800, origin: 'left' });
+  ScrollReveal().reveal('.section-2-title p', { delay: 1000, origin: 'top', distance: '90px', duration: 1500 });
+  ScrollReveal().reveal('.section-3-background img', { delay: 1000, origin: 'left', interval: 300, distance: '800px'});
+  ScrollReveal().reveal('.section-3-title h1', { delay: 50, origin: 'top', distance: '90px' });
+  ScrollReveal().reveal('.section-3-title p', { delay: 400, origin: 'top' });
+  ScrollReveal().reveal('.section-4-image1', { delay: 300, origin: 'left'});
+  ScrollReveal().reveal('.section-4-image2', { delay: 400, origin: 'right'});
+  ScrollReveal().reveal('.satu', { delay: 600, origin: 'right'});
+  ScrollReveal().reveal('.dua', { delay: 600, origin: 'left'});

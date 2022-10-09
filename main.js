@@ -49,3 +49,29 @@ cancelBtn.addEventListener("click", () => {
     nav.classList.remove("move-up");
     desktopNav.classList.remove("move-down");
 })
+
+
+
+
+ScrollReveal({
+    //reset: true,
+    distance: '60px',
+    duration: 2500,
+    delay: 400
+  });
+
+  //target elements, and specify options to create reveal animations
+  ScrollReveal().reveal('.section-1-title', { delay: 100, origin: 'bottom' });
+  ScrollReveal().reveal('.section-1-links', { delay: 200, origin: 'bottom' });
+  ScrollReveal().reveal('.section-2-background', { delay: 50, origin: 'left' });
+  ScrollReveal().reveal('.section-2-title', { delay: 150, origin: 'right' });
+  ScrollReveal().reveal('.section-2-links', { delay: 200, origin: 'bottom', interval: 300 });
+  ScrollReveal().reveal('.section-3-background', { delay: 200, origin: 'right', interval: 200 });
+  ScrollReveal().reveal('.section-3-title', { delay: 100, origin: 'top', interval: 200 });
+  ScrollReveal().reveal('.section-4-title', { delay: 150, origin: 'top'});
+  ScrollReveal().reveal('.macbook h4', { delay: 150, origin: 'top'});
+  ScrollReveal().reveal('.macbook h1', { delay: 150, origin: 'bottom'});
+  ScrollReveal().reveal('.macbook h3', { delay: 400, origin: 'bottom'});
+  ScrollReveal().reveal('.section-5-background', { delay: 200, origin: 'bottom', interval: 500 });
+  ScrollReveal().reveal('.section-5-title img', { delay: 400, origin: 'top'});
+  ScrollReveal().reveal('.section-5-title h3', { delay: 600, origin: 'bottom'});
