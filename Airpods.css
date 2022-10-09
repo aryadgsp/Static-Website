@@ -1,0 +1,319 @@
+body{
+    background-color: whitesmoke;
+}
+.Airpodspro{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+#vid1{
+    width: 99%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.txt{
+    text-align: center;
+    margin-top: -65vh;
+}
+.new{
+    color: rgb(54, 169, 54);
+    font-size: 3vh;
+}
+.hm{
+    color: white;
+    font-size: 20vh;
+}
+.prc{
+    color: white;
+    font-size: 3.5vh;
+}
+
+.buy{
+    position: relative;
+    z-index: 10;
+    display: block;
+    text-align-last: center;
+}
+.btn{
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+    height: 40px;
+    width: 70px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+    box-shadow: 0 6px 15px 0 rgba(17, 30, 90, 0.226);
+    transition: all 250ms linear;
+    text-decoration: none;
+    margin-top: 20vh;
+}
+.btn::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-color: white;
+    transition: 250ms 300ms ease;
+}
+.btn:hover{
+    box-shadow: 0 12px 35px 0 rgba(255, 255, 255, 0.25);
+    background-color: white;
+    opacity: 80%;
+}
+
+.Airpods3rd{
+    margin-top: 10vh;
+    text-align: center;
+    margin-left: 13px;
+    margin-right: 13px;
+    border-radius: 20px;
+    background-color: white;
+    width: 98%;
+    height: 558px;
+}
+
+.pic{
+    width: 80%;
+    height: 558px;
+}
+
+.txt1{
+    text-align: center;
+    margin-top: -65vh;
+    color: black;
+}
+.AP{
+    font-size: 20vh;  
+}
+.gen3{
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+
+.prc1{
+    color: black;
+    font-size: 3.5vh;
+    margin-top: 2vh;
+}
+
+.Airpods2nd{
+    margin-top: 4vh;
+    text-align: center;
+    margin-left: 13px;
+    margin-right: 13px;
+    border-radius: 20px;
+    background-color: white;
+    width: 98%;
+    height: 558px;
+}
+
+.Airpodsmax{
+    margin-top: 4vh;
+    text-align: center;
+    margin-left: 13px;
+    margin-right: 13px;
+    border-radius: 20px;
+    background-color: white;
+    width: 98%;
+    height: 558px;
+    margin-bottom: 50px;
+}
+
+.pic1{
+    margin-top: 20px;
+    width: auto;
+    height: 450px;
+}
+.APM{
+    font-size: 25vh;  
+}
+.txt2{
+    text-align: center;
+    margin-top: -56vh;
+    color: black;
+}
+.prc2{
+    color: black;
+    font-size: 3.5vh;
+    margin-top: -4vh;
+    margin-bottom: 9vh;
+}
+
+.btn2{
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+    height: 40px;
+    width: 70px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    box-shadow: 0 6px 15px 0 rgba(17, 30, 90, 0.226);
+    transition: all 250ms linear;
+    text-decoration: none;
+    margin-top: 19vh;
+}
+.btn2::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-color: black;
+    transition: 250ms 300ms ease;
+}
+.btn2:hover{
+    box-shadow: 0 12px 35px 0 rgba(255, 255, 255, 0.25);
+    background-color: black;
+    opacity: 80%;
+}
+
+
+@media screen and (max-width: 990px) {
+    .txt{
+        margin-top: -50vh;
+    }
+    .new{        
+        font-size: 2vh;
+    }
+    .hm{
+        font-size: 18vh;
+    }
+    .prc{
+        font-size: 3.5vh;
+    }
+
+    .Airpods3rd{
+        margin-top: 9vh;
+        height: 400px;
+    }
+    .Airpods2nd{
+        height: 400px;
+    }
+    .txt1{
+        margin-top: -55vh;
+    }
+    .pic{
+        height: 400px;
+    }
+    .btn{
+        margin-top: 10vh;
+    }
+    .btn2{
+        margin-top: 10vh;
+    }
+
+    .Airpodsmax{
+        height: 500;
+    }
+    .pic1{
+        height: 450px;
+    }
+    .APM{
+        font-size: 20vh; 
+    }
+    .txt2{
+        margin-top: -46vh;
+    }
+    .prc2{
+        color: black;
+        font-size: 3.5vh;
+        margin-top: -4vh;
+        margin-bottom: 15vh;
+    }
+}
+@media screen and (max-width: 790px) {
+    .txt{
+        margin-top: -40vh;
+    }
+    .new{
+        font-size: 2vh;
+    }
+    .hm{
+        font-size: 14vh;
+    }
+    .prc, .prc1, .prc2{
+        font-size: 2.5vh;
+    }
+    .btn{
+        margin-top: 5vh;
+    }
+
+    .APM{
+        font-size: 17vh; 
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .txt{
+        margin-top: -35vh;
+    }
+    .new{        
+        font-size: 1.5vh;
+    }
+    .hm{
+        font-size: 12vh;
+    }
+    .prc, .prc1{
+        font-size: 3vh;
+    }
+    .btn{
+        margin-top: 2vh;
+    }
+
+    .Airpods3rd{
+        margin-top: 10vh;
+    }
+    .AP{
+        font-size: 16vh;  
+    }
+    .gen3{
+        font-size: 5vh;
+    }
+    .pic1{
+        height: 450px;
+    }
+
+    .APM{
+        font-size: 12vh; 
+    }
+    .prc2{
+        font-size: 3vh;
+        margin-top: -2vh;
+        margin-bottom: 20vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .txt{
+        margin-top: -30vh;
+    }
+    .Airpods3rd{
+        margin-top: 5vh;
+    }
+}

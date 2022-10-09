@@ -1,0 +1,222 @@
+.main{
+    background-image: url(images/Support/0.gif);
+    width: 100%;
+    height: 500px;
+}
+.title1{
+    padding-top: 25vh;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 
+    1px 1px 1px white,
+    2px 2px 2px white;
+}
+
+.UP{
+    padding-left: 5vw;
+    padding-top: 8vh;
+}
+.up{
+    height: auto;
+    width: 600px;
+    
+}
+.kotak{
+    text-align: left;
+    margin-left: 610px;
+    margin-top: -37vh;
+    width: 40vw;
+    height: auto;
+}
+.title2{
+    font-size: 45px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+.title3{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.sup{
+    margin-top: 20vh;
+    background-image: url(images/Support/2.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+}
+.textsup{
+    padding-top: 200px ;
+    padding-left: 125px;
+    width: 600px;
+    text-shadow: 
+    1px 1px 1px rgb(255, 255, 255),
+    2px 2px 2px rgb(255, 255, 255);
+}
+.title4{
+    font-size: 45px;
+    font-weight: 550;
+    color: white;
+    margin-bottom: 10px;
+}
+.title5{
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+}
+.keterangan{
+    border-bottom: 1px solid grey;
+}
+.img{
+    margin-left: 8vw;
+    padding-top: 10vh;
+    height: 1000px;
+    width: 1100PX;
+}
+.ket, .ket1, .ket2{
+    height: 40vh;
+    width: 45vw;
+}
+.ket1{
+    margin-left: 45vw;
+}
+
+.text{
+    margin-top: -115vh;    
+}
+
+.kotak1, .kotak3{
+    margin-left: 47vw;
+    width: 80vh;
+}
+.kotak2{
+    margin-top: 15vh;
+    width: 80vh;
+}
+.kotak3{
+    margin-top: 16vh;
+}
+.title6{
+    font-size: 35px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+.title7{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.kotak4, .kotak5{
+    border-bottom: 1px solid grey;
+}
+.title8, .title9 ,.title10{
+    text-align: center;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+.title8{
+    margin-top: 5vh;
+    font-size: 25px;
+    font-weight: 550;
+}
+.title9, .title10{
+    font-size: 18px;
+    font-weight: 200;
+}
+.title9{
+    margin-bottom: 5vh;
+}
+.keterangan1{
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 1220px) {
+    .UP{
+        padding-left: 0px;
+    }
+    .up{
+        margin-left: 16vw;
+        text-align: center;
+        width: 60vw;
+        height: auto;
+    }
+    .kotak{
+        text-align: center;
+        margin-left: 0vh;
+        padding-left: 120px;
+        padding-right: 120px;
+        margin-top: 10vh;
+        width: 90vw;
+        height: auto;
+    }
+    .title2{
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .title3{
+        font-size: 20px;
+    }
+
+    .img{
+        margin-left: 0vw;
+        height: 200vh;
+        width: 100%;
+    }
+
+    .ket, .ket1, .ket2{
+        margin-left: 28vw;
+        margin-right: 25vw;
+        height: 40vh;
+        width: 45vw;
+        margin-bottom: 20vh;
+    }
+    
+    .text{
+        margin-top: -140vh;    
+    }
+    
+    .kotak1, .kotak2, .kotak3{
+        margin-left: 5vw;
+        text-align: center;
+        width: 90%;
+        margin-top: 0vh;
+    }
+    .kotak1{
+        margin-bottom: 50vh;
+    }
+    .kotak2{
+        margin-bottom: 44vh;
+    }
+
+    .title6{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .title7{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .title6{
+        font-size: 25px;
+    }
+    .title7{
+        font-size: 15px;
+    }
+    .kotak2{
+        margin-bottom: 50vh;
+    }
+
+    .title8, .title9 ,.title10{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .title8{
+        font-size: 20px;
+    }
+    .title9, .title10{
+        font-size: 10px;
+    }
+}

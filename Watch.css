@@ -1,0 +1,224 @@
+.title{
+    padding-top: 20vh;
+    text-align: center;
+}
+.title1{
+    width: 180px;
+    height: auto;
+    padding-bottom: 5px;
+}
+.title2{
+    font-size: 50px;
+}
+.watchultra{
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+}
+.title3{
+    margin-top: 50px;
+    text-align: center;
+}
+.ultbuy{
+    font-size: 20px;
+}
+.ultrawrap{
+    position: relative;
+    z-index: 10;
+    display: block;
+    text-align-last: center;
+}
+.btn{
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+    height: 40px;
+    width: 70px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: rgb(34, 104, 210);
+    color: white;
+    box-shadow: 0 6px 15px 0 rgba(17, 30, 90, 0.226);
+    transition: all 250ms linear;
+    text-decoration: none;
+    margin-top: 20px;   
+    margin-bottom: 100px;
+}
+.btn::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-color: rgb(34, 104, 210);
+    transition: 250ms 300ms ease;
+}
+.btn:hover{
+    box-shadow: 0 12px 35px 0 rgba(255, 255, 255, 0.25);
+    background-color: rgb(34, 104, 210);
+    opacity: 80%;
+}
+
+.watch8_1{
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    margin-left: 150px;
+    height: auto;
+    width: 300px;
+}
+
+.watch8{
+    background-color: black;
+    height: 640px;
+    width: 100%;
+    margin-top: -640px;
+    margin-bottom: 50px;
+}
+.kotak{
+    margin-left: 460px;
+    padding-top: 210px;
+    text-align: center;
+}
+.watch8_2{
+    width: 150px;
+    height: auto;
+}
+.title4{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.title5{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+.eightbuy{
+    font-size: 20px;
+}
+.eightwrap{
+    position: relative;
+    z-index: 10;
+    display: block;
+    text-align-last: center;
+}
+.btn2{
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+    height: 40px;
+    width: 70px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: rgb(34, 104, 210);
+    color: white;
+    box-shadow: 0 6px 15px 0 rgba(17, 30, 90, 0.226);
+    transition: all 250ms linear;
+    text-decoration: none;
+    margin-top: 20px;   
+    margin-bottom: 100px;
+}
+.btn2::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-color: rgb(34, 104, 210);
+    transition: 250ms 300ms ease;
+}
+.btn2:hover{
+    box-shadow: 0 12px 35px 0 rgba(255, 255, 255, 0.25);
+    background-color: rgb(34, 104, 210);
+    opacity: 80%;
+}
+
+@media screen and (max-width: 800px) {
+    .watch8{
+        height: 400px;
+        margin-top: -350px;
+    }
+    .watch8_1{
+        margin-left: 100px;
+        width: 150px;
+    }
+    .watch8_2{
+        width: 100px;
+    }
+    .kotak{
+        margin-left: 240px;
+        padding-top: 120px;
+    }
+    .title4{
+        font-size: 30px;
+    }
+    .title5{
+        font-size: 19px;
+    }
+    .btn2{
+        margin-top: 10px;
+        height: 25px;
+        width: 45px; 
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .title1{
+        width: 100px;
+    }
+    .title2{
+        font-size: 30px;
+    }
+    .title3{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .watch8{
+        height: 270px;
+        margin-top: -240px;
+    }
+    .watch8_1{
+        margin-left: 80px;
+        width: 100px;
+    }
+    .watch8_2{
+        width: 45px;
+    }
+    .kotak{
+        margin-left: 200px;
+        padding-top: 85px;
+    }
+    .title4{
+        font-size: 20px;
+    }
+    .title5{
+        font-size: 14px;
+    }
+    .btn2{
+        margin-top: 10px;
+        height: 20px;
+        width: 40px; 
+        font-size: 8px;
+    }
+}
+

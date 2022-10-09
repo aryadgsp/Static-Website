@@ -1,0 +1,312 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: black;
+    background-color: white;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.wrappername{
+    margin-top: 55px;
+    padding-left: 135px;
+    background:transparent;
+    height: 45px;
+    opacity: 0.8;
+    top: 0;
+    border-bottom: 1px solid grey;
+    position: relative;
+}
+ul{   
+    list-style-type: none;
+    display:block;
+}
+.name{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: black;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#price{
+    font-size: 18px;
+}
+h2{
+    font-size: 36px;
+    line-height: 1.2;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.section-fluid-main{
+    position:relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.section{
+    position: relative;
+    max-width: calc(100%-40px);
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+.section-fluid{
+    position: relative;
+    width: 100%;
+    display: block;
+}
+[type="radio"]:checked, [type="radio"]:not(:checked){
+    position: absolute;
+    visibility: hidden;
+} 
+.img-btn:checked + label,
+.img-btn:not(:checked) + label{
+    position: relative;
+    height: 40px;
+    transition: all 200ms linear;
+    width: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    color: black;
+    margin-right: 10px;
+    z-index: 10;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid transparent;
+}
+.img-btn:checked + label{
+    border-color: rgb(34, 104, 210);
+    border-width: 2px;
+    transform: scale(1.2);
+}
+label.first-img{
+    margin-left: 500px;
+    background-image: url("images/AIRPODS/AIRPODSPROMAX/color-1.png");
+    background-repeat: no-repeat;
+}
+label.img-2{
+    background-image: url("images/AIRPODS/AIRPODSPROMAX/color-2.png");
+    background-repeat: no-repeat;
+}
+label.img-3{
+    background-image: url("images/AIRPODS/AIRPODSPROMAX/color-3.png");
+    background-repeat: no-repeat;
+}
+label.img-4{
+    background-image: url("images/AIRPODS/AIRPODSPROMAX/color-4.png");
+    background-repeat: no-repeat;
+}
+label.img-5{
+    background-image: url("images/AIRPODS/AIRPODSPROMAX/color-5.png");
+    background-repeat: no-repeat;
+}
+
+.img-wrap{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    z-index: 9;
+    transition: all 550ms linear;
+    transition-delay: 100ms;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/AIRPODS/AIRPODSPROMAX/1.png");
+    opacity: 0;
+}
+.for-img1:checked ~ .img-wrap.img-1{
+    opacity: 1;
+    animation: cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+.img-wrap.img-2{
+    background-image: url("images/AIRPODS/AIRPODS_GEN3/2.jpg");
+}
+.for-img2:checked ~ .img-wrap.img-2{
+    opacity: 1;
+    animation: cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+.img-wrap.img-3{
+    background-image: url("images/AIRPODS/AIRPODSPROMAX/3.png");
+}
+.for-img3:checked ~ .img-wrap.img-3{
+    opacity: 1;
+    animation: cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+.img-wrap.img-4{
+    background-image: url("images/AIRPODS/AIRPODSPROMAX/4.png");
+}
+.for-img4:checked ~ .img-wrap.img-4{
+    opacity: 1;
+    animation: cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+.img-wrap.img-5{
+    background-image: url("images/AIRPODS/AIRPODSPROMAX/5.png");
+}
+.for-img5:checked ~ .img-wrap.img-5{
+    opacity: 1;
+    animation: cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+
+.info-wrap{
+    position: relative;
+    margin-left: 500px;
+    z-index: 10;
+    display: block;
+    text-align-last: left;
+}
+.btn{
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2;
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: rgb(34, 104, 210);
+    color: white;
+    box-shadow: 0 6px 15px 0 rgba(17, 30, 90, 0.226);
+    transition: all 250ms linear;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.Cart{
+    padding-right: 7px;
+    font-size: 20px;
+}
+.btn::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-color: rgb(34, 104, 210);
+    transition: 250ms 300ms ease;
+}
+.btn:hover{
+    box-shadow: 0 12px 35px 0 rgba(255, 255, 255, 0.25);
+    background-color: rgb(73, 124, 201);
+}
+
+@media screen and (max-width: 991px) {
+    .section{
+        margin: 0 auto;
+        text-align: center;
+        max-width: clac(100%-40px);
+        width: 800px;
+    }
+    label.first-img{
+        margin-left: 0;
+    }
+    .info-wrap{
+        margin-left: 0;
+        width: 800px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .mob-margin{
+        margin-top: 290px;
+    }
+    .desc-btn:checked + label,
+    .desc-btn:not(:checked) + label{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .img-btn:checked + label,
+    .img-btn:not(:checked) + label{
+        height: 40px;
+        width: 40px;
+        margin: 5px auto;
+        text-align: center;
+    }
+    .section-inline{
+        margin: 0 5px;
+    }
+    .img-wrap{
+        width: 375px;
+        height: 350px;
+        left: 50%;
+        margin-left: -190px;
+    }
+    .btn{
+        height: 48px;
+        width: 800px;
+
+    }
+    h2{
+        text-align: left;
+    }
+    .wrappername{
+        margin-top: 55px;
+        padding-left: 25px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 708px) {
+    .section{
+        width: 400px;
+    }
+    .info-wrap{
+        width: 500px;
+    }
+    .img-btn:checked + label,
+    .img-btn:not(:checked) + label{
+        height: 35px;
+        width: 35px;
+    }
+    .section-inline p span{
+        font-size: 24px;
+        line-height: 1.1;
+    }
+    .btn{
+        height: 48px;
+        width: 400px;
+    }
+    .section-inline p{
+        font: 14px;
+    }
+    h2{
+        text-align: left;
+    }
+}
